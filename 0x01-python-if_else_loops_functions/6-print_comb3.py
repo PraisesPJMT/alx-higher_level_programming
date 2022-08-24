@@ -2,6 +2,6 @@
 for i in range(10):
     for j in range(10):
         if i != j:
-            print(f"{i}{j}, ", end="")
+            print("{}{}, ".format(i, j), end="")
         elif i == j and j == 9:
-            print(f"{i}{j}")
+            print("{}{}".format(i, j))
